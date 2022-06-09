@@ -1,0 +1,18 @@
+{
+    "routes": [
+        {
+            "path": "main",
+            "component": "mainContainerComponent"
+        },
+        {
+            "path": "''",
+            "redirectTo": "/main",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

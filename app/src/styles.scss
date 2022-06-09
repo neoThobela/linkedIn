@@ -1,0 +1,103 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+$gray:#666666;
+$blueBg:#eef3f8;
+$backgroundColor:#f3f2ef;
+
+*{
+margin:0;
+padding:0;
+font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:$backgroundColor;
+}
+.backgroundColor{
+    background-color:$backgroundColor ; 
+   
+}
+.grayColor{
+color:$gray;
+}
+.mat-icon{
+  color:$gray;  
+  font-size: 1.5em;
+  height: 29px;
+  width: 35px;
+  margin:5px;
+}
+bh-toolbar {
+    width: 100%;
+}
+bh-mainContainer{
+    width:100%;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-wrapper {
+     margin:0;
+    padding: 0;
+}
+.mat-form-field-infix {
+    border-top: none;
+    border:1px;
+   //  background-color: #eef3f8;
+}
+.mat-form-field-appearance-outline .mat-form-field-infix {
+     padding: 3px;
+    // background-color: #eef3f8;
+}
+
+a{ 
+    font-size:0.8em;
+    color:brown;
+    text-decoration: none;
+}
+p{   
+    font-weight: 400;
+    font-size:13px;
+    margin-bottom:5px;
+}
+.scrollY{
+    overflow-y:scroll;
+}
+.mat-card{
+    width:100%;
+}
+.matCardBg{
+    background-image: url('https://static-exp1.licdn.com/sc/h/55k1z8997gh8dwtihm11aajyq' );
+     background-repeat: no-repeat;
+    
+      
+}
+
+h3{
+    a{
+        color:black
+    }
+}
+.grayLink{
+        color:$gray;
+}
+div{
+    h3{
+        a{font-weight:small;} 
+    }
+}
+.startaPostBtn{
+    margin-right:10px;
+    width:67%;
+    border:1px solid $gray !important;
+    border-radius: 50px!important;
+}
+.follow{
+    width:60%;
+    border:1px solid $gray !important;
+    border-radius: 50px!important;
+}
+.font-sizeSmall{
+    font-size: small;
+
+}

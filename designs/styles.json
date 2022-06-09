@@ -1,0 +1,17 @@
+{
+    "classes": [
+        "backgroundColor",
+        "grayColor",
+        "mat-icon",
+        "mat-form-field-appearance-outline",
+        "mat-form-field-wrapper",
+        "mat-form-field-infix",
+        "scrollY",
+        "mat-card",
+        "matCardBg",
+        "grayLink",
+        "startaPostBtn",
+        "follow",
+        "font-sizeSmall"
+    ]
+}

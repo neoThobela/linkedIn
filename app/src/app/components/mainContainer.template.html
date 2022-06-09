@@ -1,0 +1,36 @@
+<div fxLayout="column " fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
+  <div fxLayout="row wrap" style="background:white;height:50px; margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
+    <bh-toolbar></bh-toolbar>
+  </div>
+  <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="90" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.sm="70">
+      <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="space-between stretch" [fxShow]="true" fxLayout.xs="column" fxLayout.sm="column">
+        <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start space-around" [fxShow]="true" fxFlex.md="25">
+          <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-leftProfile style="width:100%;"></bh-leftProfile>
+          </div>
+          <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-discoverMore style="width:100%;"></bh-discoverMore>
+          </div>
+        </div>
+        <div fxLayout="column wrap" fxFlex="50" fxLayoutGap="1em" fxLayoutAlign="center center" [fxShow]="true" fxFlex.sm="25" fxFlex.md="70">
+          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-searchMenu style="width:100%;"></bh-searchMenu>
+          </div>
+          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-action style="width:100%;"></bh-action>
+          </div>
+        </div>
+        <div fxLayout="column wrap" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayoutAlign.md="center center">
+          <div fxLayout="row " style="width:100%" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-feed style="width:100%"></bh-feed>
+          </div>
+          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-whosHiring style="width:100%"></bh-whosHiring>
+          </div>
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
