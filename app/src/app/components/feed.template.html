@@ -1,16 +1,19 @@
 <div fxLayout="column wrap" fxLayoutGap="1em" fxLayoutAlign="start space-between" [fxShow]="true">
-  <mat-card style="width:290px;">
+  <mat-card style="width:90%;">
     <mat-card-content style="  ">
       <div fxLayout="column wrap" fxLayoutGap="1em" fxLayoutAlign="start space-around" [fxShow]="true">
         <div style="font-weight:small;color:black;text-align:center;">
-          <h3> Add To Your Feed</h3>
+          <h4> Add To Your Feed</h4>
         </div>
-        <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/profilePicture.jpg" style="width:30px;height:30px;border-radius:50%;">
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-            <div style="font-weight:small" class="grayColor">
-              <h3>BoxFusion</h3>
-              <p> Company * Tech and Science</p>
-            </div><button mat-button class="follow">+ Follow</button>
+        <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let feed of page.addFeed"><img imgSrc="{{feed.image}}" style="width:30px;height:30px;border-radius:50%;">
+          <div fxLayout="column wrap" fxLayoutGap="1px" fxLayoutAlign="start stretch" [fxShow]="true">
+            <h4 style="font-weight:small" class="grayColor">
+              {{feed.title}}
+
+            </h4>
+            <p>
+              {{feed.text}}
+            </p><button mat-button class="follow">+ Follow</button>
           </div>
         </div>
       </div>

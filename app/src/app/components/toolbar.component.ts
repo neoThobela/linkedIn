@@ -66,10 +66,44 @@ export class toolbarComponent {
 
   sd_KJQVWkzk2CYT5xZg(bh) {
     try {
+      this.page.icons = [];
+      bh = this.addNavbarIconsx(bh);
       //appendnew_next_sd_KJQVWkzk2CYT5xZg
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_KJQVWkzk2CYT5xZg');
+    }
+  }
+
+  addNavbarIconsx(bh) {
+    try {
+      const page = this.page;
+      page.icons = [
+        {
+          icon: 'home',
+          name: 'Home',
+        },
+        {
+          icon: 'people',
+          name: 'My Network',
+        },
+        {
+          icon: 'work',
+          name: 'Job',
+        },
+        {
+          icon: 'message',
+          name: 'Messaging',
+        },
+        {
+          icon: 'notifications',
+          name: 'Notifications',
+        },
+      ];
+      //appendnew_next_addNavbarIconsx
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_uNzAsBSgRKnKkEJN');
     }
   }
 

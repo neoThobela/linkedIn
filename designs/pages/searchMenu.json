@@ -19,8 +19,8 @@
         "name": "",
         "functionName": "sd_VftHwbCNUdPRaUVY",
         "category": "Lifecycle Events",
-        "x": 30,
-        "y": 30,
+        "x": 25,
+        "y": 60,
         "wires": [
             [
                 "sd_He4k7SCBG0nBEs4T"
@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "searchBarIcons",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_He4k7SCBG0nBEs4T",
         "category": "Function",
-        "x": 180,
-        "y": 30,
+        "x": 205,
+        "y": 60,
+        "wires": [
+            [
+                "sd_U9BOQgs5TEN67Uw6"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_U9BOQgs5TEN67Uw6",
+        "type": "Script",
+        "z": "sd_P0xxQ4ej1KDyNdHL",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "searchBarIcons",
+        "script": "page.searchBarIcons=[\n    {\n    icon:\"photo\",\n    name:\"Photo\",\n    color:\"#378fe9\"\n    },\n      {\n    icon:\"video_library\",\n    name:\"Video\",\n    color:\"#5f9b41\"\n    },\n      {\n    icon:\"event\",\n    name:\"Event\",\n    color:\"#c37d16\"\n    },\n      {\n    icon:\"description\",\n    name:\"Write An Article\",\n    color:\"#e16745\"\n    },\n]",
+        "functionName": "searchBarIcons",
+        "category": "Function",
+        "x": 325,
+        "y": 60,
         "wires": [
             []
         ],

@@ -17,6 +17,9 @@
         "viewType": "common",
         "nodeType": "start",
         "name": "",
+        "inputVariables": [],
+        "localVariables": [],
+        "outputVariables": [],
         "functionName": "sd_F76qXEdul6K4QV1N",
         "category": "Lifecycle Events",
         "x": 30,
@@ -36,15 +39,44 @@
         "z": "sd_vxWVOjPl6nS9Xdxq",
         "viewType": "pages",
         "nodeType": "flow",
-        "name": "",
+        "name": "addToYourFeed",
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
-        "functionName": "sd_ucovGtrEdrsvq5XR",
+        "globalVariables": [
+            {
+                "textIp": "addFeed",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
+        "functionName": "addToYourFeed",
         "category": "Function",
         "x": 180,
         "y": 30,
+        "wires": [
+            [
+                "sd_88fNBvWZSLA3QBbn"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_88fNBvWZSLA3QBbn",
+        "type": "Script",
+        "z": "sd_vxWVOjPl6nS9Xdxq",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.addFeed=[\n    { \n        image:'/Web/Images/profilePicture.jpg',\n        title:'BoxFusion',\n        text:'Company * Tech and Science'\n    },\n     { \n        image:'/Web/Images/profilePicture.jpg',\n        title:'BoxFusion',\n        text:'Company * Tech and Science'\n    },\n   { \n        image:'/Web/Images/profilePicture.jpg',\n        title:'BoxFusion',\n        text:'Company * Tech and Science'\n    },\n    ]",
+        "functionName": "sd_88fNBvWZSLA3QBbn",
+        "category": "Function",
+        "x": 345,
+        "y": 40,
         "wires": [
             []
         ],

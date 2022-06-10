@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "actionsComp",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_cD9SScH9TCrz2RA6",
         "category": "Function",
         "x": 180,
         "y": 30,
+        "wires": [
+            [
+                "sd_2NX19duFOG3alSFV"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_2NX19duFOG3alSFV",
+        "type": "Script",
+        "z": "sd_w6ERp05nSjiWk7JA",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.actionsComp=[{\n    friendLike:\"RIVALANI BALOYI\",\n    name:\"Tems Smith\",\n    position:\"SoftWare Engineer\",\n    profilePicture:\"/Web/Images/post.jpg\",\n    image:\"/Web/Images/post.jpg\" , \n    postMessage:\"Today’s trends of digitization, Industry 4.0 and supply chain resilience force companies to rethink the way they design their supply chains\" \n},\n{\n    friendLike:\"Motlatso Mokoele \",\n    name:\"Lerato M. Sebothoma, MSc.\",\n    position:\"Construction Project Management\",\n    profilePicture:\"/Web/Images/post.jpg\",\n    image:\"/Web/Images/picturePost.jpg\",  \n    postMessage:\"Incredible day spent at the 5th #ConstructionTechnologyFestival and Awards with fellow CIOB member Haitham Aref, MSc, FCIOB and Regional Manager Matt Doran 😀🎉\" \n},\n{\n    friendLike:\"Thapelo Gift \",\n    name:\"Lerato Mashaba\",\n    position:\"Bcom marketing management graduate\",\n    profilePicture:\"/Web/Images/post.jpg\",\n    image:\"/Web/Images/picturePost2.jpg\", \n    postMessage:\"Degree obtained 🎓\"  \n},\n]",
+        "functionName": "sd_2NX19duFOG3alSFV",
+        "category": "Function",
+        "x": 305,
+        "y": 40,
         "wires": [
             []
         ],

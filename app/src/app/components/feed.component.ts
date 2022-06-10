@@ -52,7 +52,7 @@ export class feedComponent {
 
   sd_F76qXEdul6K4QV1N(bh) {
     try {
-      bh = this.sd_ucovGtrEdrsvq5XR(bh);
+      bh = this.addToYourFeed(bh);
       //appendnew_next_sd_F76qXEdul6K4QV1N
       return bh;
     } catch (e) {
@@ -62,12 +62,41 @@ export class feedComponent {
 
   //appendnew_flow_feedComponent_start
 
-  sd_ucovGtrEdrsvq5XR(bh) {
+  addToYourFeed(bh) {
     try {
-      //appendnew_next_sd_ucovGtrEdrsvq5XR
+      this.page.addFeed = [];
+      bh = this.sd_88fNBvWZSLA3QBbn(bh);
+      //appendnew_next_addToYourFeed
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_ucovGtrEdrsvq5XR');
+    }
+  }
+
+  sd_88fNBvWZSLA3QBbn(bh) {
+    try {
+      const page = this.page;
+      page.addFeed = [
+        {
+          image: '/Web/Images/profilePicture.jpg',
+          title: 'BoxFusion',
+          text: 'Company * Tech and Science',
+        },
+        {
+          image: '/Web/Images/profilePicture.jpg',
+          title: 'BoxFusion',
+          text: 'Company * Tech and Science',
+        },
+        {
+          image: '/Web/Images/profilePicture.jpg',
+          title: 'BoxFusion',
+          text: 'Company * Tech and Science',
+        },
+      ];
+      //appendnew_next_sd_88fNBvWZSLA3QBbn
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_88fNBvWZSLA3QBbn');
     }
   }
 

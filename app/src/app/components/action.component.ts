@@ -64,10 +64,50 @@ export class actionComponent {
 
   sd_cD9SScH9TCrz2RA6(bh) {
     try {
+      this.page.actionsComp = [];
+      bh = this.sd_2NX19duFOG3alSFV(bh);
       //appendnew_next_sd_cD9SScH9TCrz2RA6
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_cD9SScH9TCrz2RA6');
+    }
+  }
+
+  sd_2NX19duFOG3alSFV(bh) {
+    try {
+      const page = this.page;
+      page.actionsComp = [
+        {
+          friendLike: 'RIVALANI BALOYI',
+          name: 'Tems Smith',
+          position: 'SoftWare Engineer',
+          profilePicture: '/Web/Images/post.jpg',
+          image: '/Web/Images/post.jpg',
+          postMessage:
+            'Today’s trends of digitization, Industry 4.0 and supply chain resilience force companies to rethink the way they design their supply chains',
+        },
+        {
+          friendLike: 'Motlatso Mokoele ',
+          name: 'Lerato M. Sebothoma, MSc.',
+          position: 'Construction Project Management',
+          profilePicture: '/Web/Images/post.jpg',
+          image: '/Web/Images/picturePost.jpg',
+          postMessage:
+            'Incredible day spent at the 5th #ConstructionTechnologyFestival and Awards with fellow CIOB member Haitham Aref, MSc, FCIOB and Regional Manager Matt Doran 😀🎉',
+        },
+        {
+          friendLike: 'Thapelo Gift ',
+          name: 'Lerato Mashaba',
+          position: 'Bcom marketing management graduate',
+          profilePicture: '/Web/Images/post.jpg',
+          image: '/Web/Images/picturePost2.jpg',
+          postMessage: 'Degree obtained 🎓',
+        },
+      ];
+      //appendnew_next_sd_2NX19duFOG3alSFV
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_2NX19duFOG3alSFV');
     }
   }
 

@@ -68,7 +68,6 @@
         "4e1ae35b-17ca-ac39-2ee0-a22f8e8d4670": {
             "paletteKey": "FlexLayoutRow",
             "parentEditorKey": "635fff75-0d5c-2904-dc9f-bd607fb0771a",
-            "isCommented": "false",
             "commentid": null,
             "designerReference": [
                 {
@@ -130,7 +129,6 @@
             "e61037ad-63c9-72d6-5bb7-4f3c4075d114": {
                 "paletteKey": "NEUTRINOS_VIEW_toolbar",
                 "parentEditorKey": "4e1ae35b-17ca-ac39-2ee0-a22f8e8d4670",
-                "isCommented": "false",
                 "commentid": null,
                 "designerReference": [
                     {
@@ -158,7 +156,6 @@
         "36baeae3-e175-baad-25da-efa387e2ca56": {
             "paletteKey": "FlexLayoutRow",
             "parentEditorKey": "635fff75-0d5c-2904-dc9f-bd607fb0771a",
-            "isCommented": "false",
             "commentid": null,
             "designerReference": [
                 {
@@ -220,7 +217,6 @@
             "e621d238-bb7c-4135-2e4c-790b3d764d6d": {
                 "paletteKey": "FlexLayoutCol",
                 "parentEditorKey": "36baeae3-e175-baad-25da-efa387e2ca56",
-                "isCommented": "false",
                 "commentid": null,
                 "designerReference": [
                     {
@@ -244,13 +240,13 @@
                     },
                     {
                         "_key": "fxFlex",
-                        "_value": "90",
+                        "_value": "80",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
                     {
                         "_key": "fxLayoutGap",
-                        "_value": "",
+                        "_value": "10px",
                         "_type": "kv",
                         "_attrDef": "p"
                     },
@@ -288,7 +284,6 @@
                 "da05f07b-2046-a3ff-4345-c82f4de4e799": {
                     "paletteKey": "FlexLayoutRow",
                     "parentEditorKey": "e621d238-bb7c-4135-2e4c-790b3d764d6d",
-                    "isCommented": "false",
                     "commentid": null,
                     "designerReference": [
                         {
@@ -362,7 +357,6 @@
                     "5e3d24a7-ab2c-3a47-018a-b290cc21d72f": {
                         "paletteKey": "FlexLayoutCol",
                         "parentEditorKey": "da05f07b-2046-a3ff-4345-c82f4de4e799",
-                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {
@@ -430,7 +424,6 @@
                         "d8b40f60-bd55-4602-8a97-5a6c675bbeae": {
                             "paletteKey": "FlexLayoutRow",
                             "parentEditorKey": "5e3d24a7-ab2c-3a47-018a-b290cc21d72f",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -492,7 +485,6 @@
                             "3e667ff7-7121-d3de-b41e-b29c97dcdc96": {
                                 "paletteKey": "NEUTRINOS_VIEW_leftProfile",
                                 "parentEditorKey": "d8b40f60-bd55-4602-8a97-5a6c675bbeae",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -520,7 +512,6 @@
                         "d4f5439a-0851-b239-d612-da34ca5933a4": {
                             "paletteKey": "FlexLayoutRow",
                             "parentEditorKey": "5e3d24a7-ab2c-3a47-018a-b290cc21d72f",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -582,7 +573,6 @@
                             "80b46b98-24cb-fb46-ebdd-22538294ab03": {
                                 "paletteKey": "NEUTRINOS_VIEW_discoverMore",
                                 "parentEditorKey": "d4f5439a-0851-b239-d612-da34ca5933a4",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -611,7 +601,6 @@
                     "80a8cd56-f25b-5aeb-1e1c-434d52bf77a8": {
                         "paletteKey": "FlexLayoutCol",
                         "parentEditorKey": "da05f07b-2046-a3ff-4345-c82f4de4e799",
-                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {
@@ -635,7 +624,7 @@
                             },
                             {
                                 "_key": "fxFlex",
-                                "_value": "50",
+                                "_value": "52",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -746,7 +735,6 @@
                             "59a5ede3-32da-dd47-96bf-b57ac560078a": {
                                 "paletteKey": "NEUTRINOS_VIEW_searchMenu",
                                 "parentEditorKey": "2dd150f0-d0f5-6e5e-5417-a86815da7448",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -1240,7 +1228,6 @@
                             "c3cd8403-bb77-fe7a-3c13-f4656a4d14f2": {
                                 "paletteKey": "NEUTRINOS_VIEW_action",
                                 "parentEditorKey": "a7eae541-1158-77f4-4800-4016b5d319bc",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -1269,7 +1256,6 @@
                     "605341af-cb2a-06a6-3d3b-c47721e1fb42": {
                         "paletteKey": "FlexLayoutCol",
                         "parentEditorKey": "da05f07b-2046-a3ff-4345-c82f4de4e799",
-                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {
@@ -1293,7 +1279,7 @@
                             },
                             {
                                 "_key": "fxFlex",
-                                "_value": "",
+                                "_value": "25",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -1332,12 +1318,17 @@
                                 "_value": "center center",
                                 "_type": "kv",
                                 "_attrDef": "c"
+                            },
+                            {
+                                "_key": "fxLayoutGap.xs",
+                                "_value": "5em",
+                                "_type": "kv",
+                                "_attrDef": "c"
                             }
                         ],
                         "11f14e26-d2f2-a016-1211-a05115744bdb": {
                             "paletteKey": "FlexLayoutRow",
                             "parentEditorKey": "605341af-cb2a-06a6-3d3b-c47721e1fb42",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -1399,7 +1390,6 @@
                             "49cbd9bb-045a-fc27-1ea4-90ee1479acb8": {
                                 "paletteKey": "NEUTRINOS_VIEW_feed",
                                 "parentEditorKey": "11f14e26-d2f2-a016-1211-a05115744bdb",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -1427,7 +1417,6 @@
                         "df18e992-6a62-69f3-e166-40658c2a520a": {
                             "paletteKey": "FlexLayoutRow",
                             "parentEditorKey": "605341af-cb2a-06a6-3d3b-c47721e1fb42",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {
@@ -1489,7 +1478,6 @@
                             "7cb955bc-5469-0486-5a99-f207ed1b516c": {
                                 "paletteKey": "NEUTRINOS_VIEW_whosHiring",
                                 "parentEditorKey": "df18e992-6a62-69f3-e166-40658c2a520a",
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -1517,7 +1505,6 @@
                         "b3e2985d-d665-aa27-d282-31c8fb6de49a": {
                             "paletteKey": "FlexLayoutRow",
                             "parentEditorKey": "605341af-cb2a-06a6-3d3b-c47721e1fb42",
-                            "isCommented": "false",
                             "commentid": null,
                             "designerReference": [
                                 {

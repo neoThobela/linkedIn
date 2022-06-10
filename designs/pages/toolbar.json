@@ -17,10 +17,13 @@
         "viewType": "common",
         "nodeType": "start",
         "name": "",
+        "inputVariables": [],
+        "localVariables": [],
+        "outputVariables": [],
         "functionName": "sd_irsyUknMlQH5gtp6",
         "category": "Lifecycle Events",
-        "x": 30,
-        "y": 30,
+        "x": 65,
+        "y": 80,
         "wires": [
             [
                 "sd_KJQVWkzk2CYT5xZg"
@@ -40,11 +43,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "icons",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_KJQVWkzk2CYT5xZg",
         "category": "Function",
-        "x": 180,
-        "y": 30,
+        "x": 215,
+        "y": 80,
+        "wires": [
+            [
+                "sd_uNzAsBSgRKnKkEJN"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_uNzAsBSgRKnKkEJN",
+        "type": "Script",
+        "z": "sd_adD0Ri4m1R2XSZXH",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "addNavbarIconsx",
+        "script": "page.icons=[\n    {\n        icon:'home' ,\n        name:'Home'\n    },\n    {\n        icon:'people',\n        name:'My Network'\n    },\n    {\n        icon:'work',\n        name:'Job'\n    },\n    {\n        icon:'message',\n        name:'Messaging'\n    },\n     {\n        icon:'notifications',\n        name:'Notifications'\n    }\n   \n]",
+        "functionName": "addNavbarIconsx",
+        "category": "Function",
+        "x": 345,
+        "y": 80,
         "wires": [
             []
         ],

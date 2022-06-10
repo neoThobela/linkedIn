@@ -64,10 +64,44 @@ export class searchMenuComponent {
 
   sd_He4k7SCBG0nBEs4T(bh) {
     try {
+      this.page.searchBarIcons = [];
+      bh = this.searchBarIcons(bh);
       //appendnew_next_sd_He4k7SCBG0nBEs4T
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_He4k7SCBG0nBEs4T');
+    }
+  }
+
+  searchBarIcons(bh) {
+    try {
+      const page = this.page;
+      page.searchBarIcons = [
+        {
+          icon: 'photo',
+          name: 'Photo',
+          color: '#378fe9',
+        },
+        {
+          icon: 'video_library',
+          name: 'Video',
+          color: '#5f9b41',
+        },
+        {
+          icon: 'event',
+          name: 'Event',
+          color: '#c37d16',
+        },
+        {
+          icon: 'description',
+          name: 'Write An Article',
+          color: '#e16745',
+        },
+      ];
+      //appendnew_next_searchBarIcons
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_U9BOQgs5TEN67Uw6');
     }
   }
 

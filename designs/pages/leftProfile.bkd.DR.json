@@ -12,7 +12,7 @@
             },
             {
                 "_key": "style",
-                "_value": "width:100%;",
+                "_value": "width:100%;border-radius:5px;",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -44,7 +44,7 @@
             },
             {
                 "_key": "layoutAlign",
-                "_value": "center",
+                "_value": "space-around",
                 "_type": "a",
                 "_attrDef": "p"
             },
@@ -64,6 +64,7 @@
         "799f147a-f3ab-d46f-9ace-e244864266c9": {
             "paletteKey": "FlexLayoutRow",
             "parentEditorKey": "a66ef7fd-07d6-d504-74be-3571468f3461",
+            "isCommented": "false",
             "commentid": null,
             "designerReference": [
                 {
@@ -129,7 +130,6 @@
             "paletteKey": "ad-card",
             "parentEditorKey": "a66ef7fd-07d6-d504-74be-3571468f3461",
             "isAdvancedComponent": true,
-            "isCommented": "false",
             "commentid": null,
             "designerReference": [
                 {
@@ -158,6 +158,35 @@
                     "_attrDef": "p"
                 }
             ],
+            "8c74e538-cda3-4530-21d7-97450ed80c04": {
+                "paletteKey": "ng-card-content",
+                "parentEditorKey": "df263da5-bcba-a8ce-d2cd-319fbdfa1ca9",
+                "isAdvancedChildComponent": true,
+                "isCommented": "true",
+                "commentid": "1654828691071",
+                "designerReference": [
+                    {
+                        "_key": "style",
+                        "_value": "height:50px;width:100%;border-radius:5px;",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "class",
+                        "_value": [
+                            "matCardBg"
+                        ],
+                        "_type": "dav",
+                        "_attrDef": "p"
+                    },
+                    {
+                        "_key": "align",
+                        "_value": "",
+                        "_type": "kv",
+                        "_attrDef": "p"
+                    }
+                ]
+            },
             "1fc4e166-cad9-8c3d-9a74-3d8d796dec5a": {
                 "paletteKey": "ng-card-content",
                 "parentEditorKey": "df263da5-bcba-a8ce-d2cd-319fbdfa1ca9",
@@ -318,7 +347,6 @@
                 "paletteKey": "ng-card-content",
                 "parentEditorKey": "df263da5-bcba-a8ce-d2cd-319fbdfa1ca9",
                 "isAdvancedChildComponent": true,
-                "isCommented": "false",
                 "commentid": null,
                 "designerReference": [
                     {
