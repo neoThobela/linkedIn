@@ -2,7 +2,7 @@
 
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "nDefaults.scss";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
 $gray:#666666;
 $blueBg:#eef3f8;
 $backgroundColor:#f3f2ef;
@@ -10,7 +10,7 @@ $backgroundColor:#f3f2ef;
 *{
 margin:0;
 padding:0;
-font-family: 'Open Sans', sans-serif;
+
 }
 body{
     background-color:$backgroundColor;
@@ -35,7 +35,10 @@ bh-toolbar {
 bh-mainContainer{
     width:100%;
 }
-
+.mat-card-content {
+    display: block;
+ margin-bottom: 0px!important;
+}
 .mat-form-field-appearance-outline .mat-form-field-wrapper {
      margin:0;
     padding: 0;
@@ -55,10 +58,23 @@ a{
     color:brown;
     text-decoration: none;
 }
+// .smallFontWeight{
+//     font-weight:small;
+//     font-family: 'open sans';
+// }
+.image{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
 p{   
     font-weight: 400;
     font-size:13px;
     margin-bottom:5px;
+}
+
+.postParagraphMargin{
+        margin: 13px 0px 14px 0px;
 }
 .scrollY{
     overflow-y:scroll;
@@ -68,11 +84,19 @@ p{
 }
 .matCardBg{
     background-image: url('https://static-exp1.licdn.com/sc/h/55k1z8997gh8dwtihm11aajyq' );
-     background-repeat: no-repeat;
-    
-      
+     background-repeat: no-repeat; 
 }
-
+.marginLeft10{
+    margin-left:10px;
+}
+.width100{
+    width:100%;
+}
+.Recents{
+    font-weight:small;
+    color:black;
+    text-align:center;
+}
 h3{
     a{
         color:black

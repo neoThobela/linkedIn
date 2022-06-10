@@ -40,11 +40,40 @@
         "inputs": 1,
         "outputs": 1,
         "operation": "set",
-        "globalVariables": [],
+        "globalVariables": [
+            {
+                "textIp": "discoverMoreInfo",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
         "functionName": "sd_fnU6MbxQOF84sGc9",
         "category": "Function",
         "x": 180,
         "y": 30,
+        "wires": [
+            [
+                "sd_8jCLv5bmwxyrCTv2"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_8jCLv5bmwxyrCTv2",
+        "type": "Script",
+        "z": "sd_RQ3jjmYfaUqZnMj8",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "page.discoverMoreInfo=[\n    {\n    icon:\"people\",\n    text:\"front end developers\"\n},\n   {\n    icon:\"people\",\n    text:\"UX designer\"\n},\n   {\n    icon:\"people\",\n    text:\"Big Data\"\n},\n]",
+        "functionName": "sd_8jCLv5bmwxyrCTv2",
+        "category": "Function",
+        "x": 305,
+        "y": 40,
         "wires": [
             []
         ],

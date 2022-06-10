@@ -423,7 +423,7 @@
                             },
                             {
                                 "_key": "fxLayoutGap",
-                                "_value": "",
+                                "_value": "1em",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -558,7 +558,7 @@
                                 },
                                 {
                                     "_key": "fxLayoutGap",
-                                    "_value": "1px",
+                                    "_value": "5px",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },

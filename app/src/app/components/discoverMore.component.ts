@@ -64,10 +64,36 @@ export class discoverMoreComponent {
 
   sd_fnU6MbxQOF84sGc9(bh) {
     try {
+      this.page.discoverMoreInfo = [];
+      bh = this.sd_8jCLv5bmwxyrCTv2(bh);
       //appendnew_next_sd_fnU6MbxQOF84sGc9
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_fnU6MbxQOF84sGc9');
+    }
+  }
+
+  sd_8jCLv5bmwxyrCTv2(bh) {
+    try {
+      const page = this.page;
+      page.discoverMoreInfo = [
+        {
+          icon: 'people',
+          text: 'front end developers',
+        },
+        {
+          icon: 'people',
+          text: 'UX designer',
+        },
+        {
+          icon: 'people',
+          text: 'Big Data',
+        },
+      ];
+      //appendnew_next_sd_8jCLv5bmwxyrCTv2
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_8jCLv5bmwxyrCTv2');
     }
   }
 
