@@ -1002,7 +1002,9 @@
                                     },
                                     {
                                         "_key": "class",
-                                        "_value": [],
+                                        "_value": [
+                                            "Recents"
+                                        ],
                                         "_type": "dav",
                                         "_attrDef": "p"
                                     },

@@ -1853,7 +1853,9 @@
                                     },
                                     {
                                         "_key": "class",
-                                        "_value": "",
+                                        "_value": [
+                                            "centerText"
+                                        ],
                                         "_type": "dav",
                                         "_attrDef": "p"
                                     },

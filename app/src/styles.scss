@@ -6,22 +6,25 @@
 $gray:#666666;
 $blueBg:#eef3f8;
 $backgroundColor:#f3f2ef;
+$blue:#0a66c2;
 
 *{
 margin:0;
 padding:0;
-
 }
+
 body{
     background-color:$backgroundColor;
 }
+
 .backgroundColor{
     background-color:$backgroundColor ; 
-   
 }
+
 .grayColor{
 color:$gray;
 }
+
 .mat-icon{
   color:$gray;  
   font-size: 1.5em;
@@ -52,11 +55,22 @@ bh-mainContainer{
      padding: 3px;
     // background-color: #eef3f8;
 }
-
 a{ 
     font-size:0.8em;
     color:brown;
     text-decoration: none;
+}
+.blueText{
+    color:$blue;
+}
+.centerText{
+    text-align: center;
+}
+h4{
+    a{
+        color:$gray!important;
+        margin-top:10px;
+    }
 }
 // .smallFontWeight{
 //     font-weight:small;
@@ -115,6 +129,7 @@ div{
     width:67%;
     border:1px solid $gray !important;
     border-radius: 50px!important;
+    width: 86%;
 }
 .follow{
     width:60%;

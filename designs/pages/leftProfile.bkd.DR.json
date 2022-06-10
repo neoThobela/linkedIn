@@ -1874,7 +1874,7 @@
                                     {
                                         "_key": "class",
                                         "_value": [
-                                            "grayColor"
+                                            "blueText"
                                         ],
                                         "_type": "dav",
                                         "_attrDef": "p"
@@ -2068,7 +2068,7 @@
                                         },
                                         {
                                             "_key": "html",
-                                            "_value": "<p calss='#0a66c2'>77</p>\r\n<!-- <h3 ><a href=\"#\">Grow Your Netowrk</a></h3>\r\n<hr> -->",
+                                            "_value": "<h4 calss='#0a66c2'>77</h4>\r\n<!-- <h3 ><a href=\"#\">Grow Your Netowrk</a></h3>\r\n<hr> -->",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         }
@@ -2765,20 +2765,22 @@
                                     },
                                     {
                                         "_key": "class",
-                                        "_value": "",
+                                        "_value": [
+                                            "blueText"
+                                        ],
                                         "_type": "dav",
                                         "_attrDef": "p"
                                     },
                                     {
                                         "_key": "htmlElement",
-                                        "_value": "p",
+                                        "_value": "h4",
                                         "_type": "dav",
                                         "_attrDef": "p",
                                         "_useAsLabel": true
                                     },
                                     {
                                         "_key": "tagType",
-                                        "_value": "p",
+                                        "_value": "h4",
                                         "_type": "a",
                                         "_attrDef": "p",
                                         "_visibility": false
