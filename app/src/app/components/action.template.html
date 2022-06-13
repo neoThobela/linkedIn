@@ -51,12 +51,12 @@
       <mat-card-content></mat-card-content>
 
       <mat-card-actions>
-        <div fxLayout="column wrap" fxLayoutAlign="center stretch" [fxShow]="true">
-          <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
-            <mat-icon>thumb_up</mat-icon><button mat-button>Like</button>
-            <mat-icon>chat</mat-icon><button mat-button>Comment</button>
-            <mat-icon>share</mat-icon><button mat-button>share</button>
-            <mat-icon>send</mat-icon><button mat-button>send</button>
+        <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="center stretch" [fxShow]="true">
+          <div fxLayout="row wrap" fxFlex="100" fxLayoutGap="36px" fxLayoutAlign="center center" [fxShow]="true" fxLayoutAlign.lg="center start" fxLayoutGap.lg="1px">
+            <mat-icon>thumb_up</mat-icon><button mat-button fxShow.lt-sm="false">Like</button>
+            <mat-icon>chat</mat-icon><button mat-button fxShow.lt-sm="false">Comment</button>
+            <mat-icon>share</mat-icon><button mat-button fxShow.lt-sm="false">share</button>
+            <mat-icon>send</mat-icon><button mat-button fxShow.lt-sm="false">send</button>
           </div>
         </div>
       </mat-card-actions>

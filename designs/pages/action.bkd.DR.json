@@ -4004,7 +4004,7 @@
                             },
                             {
                                 "_key": "fxFlex",
-                                "_value": "",
+                                "_value": "100",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -4065,13 +4065,13 @@
                                 },
                                 {
                                     "_key": "fxFlex",
-                                    "_value": "",
+                                    "_value": "100",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
                                 {
                                     "_key": "fxLayoutGap",
-                                    "_value": "",
+                                    "_value": "36px",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
@@ -4098,6 +4098,18 @@
                                     "_value": "true",
                                     "_type": "kv",
                                     "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "fxLayoutAlign.lg",
+                                    "_value": "center start",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "fxLayoutGap.lg",
+                                    "_value": "1px",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
                                 }
                             ],
                             "b149b1df-8997-b394-49fa-e7331245d5de": {
@@ -4197,6 +4209,12 @@
                                         "_value": "",
                                         "_type": "kv",
                                         "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "fxShow.lt-sm",
+                                        "_value": "false",
+                                        "_type": "kv",
+                                        "_attrDef": "c"
                                     }
                                 ]
                             },
@@ -4297,6 +4315,12 @@
                                         "_value": "",
                                         "_type": "kv",
                                         "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "fxShow.lt-sm",
+                                        "_value": "false",
+                                        "_type": "kv",
+                                        "_attrDef": "c"
                                     }
                                 ]
                             },
@@ -4397,6 +4421,12 @@
                                         "_value": "",
                                         "_type": "kv",
                                         "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "fxShow.lt-sm",
+                                        "_value": "false",
+                                        "_type": "kv",
+                                        "_attrDef": "c"
                                     }
                                 ]
                             },
@@ -4497,6 +4527,12 @@
                                         "_value": "",
                                         "_type": "kv",
                                         "_attrDef": "p"
+                                    },
+                                    {
+                                        "_key": "fxShow.lt-sm",
+                                        "_value": "false",
+                                        "_type": "kv",
+                                        "_attrDef": "c"
                                     }
                                 ]
                             }

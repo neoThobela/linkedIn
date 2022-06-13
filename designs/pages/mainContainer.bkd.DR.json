@@ -24,7 +24,7 @@
             },
             {
                 "_key": "fxFlex",
-                "_value": "100",
+                "_value": "",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -103,7 +103,7 @@
                 },
                 {
                     "_key": "wrap",
-                    "_value": "wrap",
+                    "_value": "",
                     "_type": "a",
                     "_attrDef": "p"
                 },
@@ -352,6 +352,12 @@
                             "_value": "column",
                             "_type": "kv",
                             "_attrDef": "c"
+                        },
+                        {
+                            "_key": "fxLayoutGap.sm",
+                            "_value": "1em",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ],
                     "5e3d24a7-ab2c-3a47-018a-b290cc21d72f": {
@@ -568,6 +574,18 @@
                                     "_value": "true",
                                     "_type": "kv",
                                     "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "fxShow.xs",
+                                    "_value": "false",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "fxShow.sm",
+                                    "_value": "false",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
                                 }
                             ],
                             "80b46b98-24cb-fb46-ebdd-22538294ab03": {

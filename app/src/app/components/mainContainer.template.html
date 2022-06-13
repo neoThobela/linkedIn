@@ -1,15 +1,15 @@
-<div fxLayout="column " fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
-  <div fxLayout="row wrap" style="background:white;height:50px; margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
+<div fxLayout="column " fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
+  <div fxLayout="row " style="background:white;height:50px; margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
     <bh-toolbar></bh-toolbar>
   </div>
   <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
     <div fxLayout="column wrap" fxFlex="80" fxLayoutGap="10px" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.sm="70">
-      <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="space-between stretch" [fxShow]="true" fxLayout.xs="column" fxLayout.sm="column">
+      <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="space-between stretch" [fxShow]="true" fxLayout.xs="column" fxLayout.sm="column" fxLayoutGap.sm="1em">
         <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start space-around" [fxShow]="true" fxFlex.md="25">
           <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
             <bh-leftProfile style="width:100%;"></bh-leftProfile>
           </div>
-          <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" fxShow.xs="false" fxShow.sm="false">
             <bh-discoverMore style="width:100%;"></bh-discoverMore>
           </div>
         </div>

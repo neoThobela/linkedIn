@@ -1,10 +1,13 @@
-<div fxLayout="row wrap" fxLayoutAlign="center start" [fxShow]="true">
-  <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.md="90">
-    <div fxLayout="row wrap" style="    margin-top: 2px;" fxLayoutAlign="space-between center" [fxShow]="true">
+<div fxLayout="row " fxLayoutAlign="center start" [fxShow]="true">
+  <div fxLayout="column " fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.lt-md="63" fxFlex.sm="70">
+    <div fxLayout="row " style="    margin-top: 2px;" fxLayoutAlign="space-between center" [fxShow]="true" fxFlex.lt-md="63">
       <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
         <div fxLayout="row wrap" fxLayoutGap="1em" fxLayoutAlign="start start" [fxShow]="true">
           <div fxLayout="column wrap" fxLayoutAlign="center stretch" [fxShow]="true"><img imgSrc="/Web/Images/linkedin.png" style="width: 40px;    "></div>
-          <div fxLayout="column wrap" fxLayoutAlign="center stretch" [fxShow]="true" fxShow.md="False">
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="false" fxShow.lt-md="true">
+            <mat-icon>search</mat-icon>
+          </div>
+          <div fxLayout="column wrap" fxLayoutAlign="center stretch" [fxShow]="true" fxShow.lt-md="false">
             <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
               <input matInput placeholder="Search" [required]="false">
               <mat-icon matPrefix>search</mat-icon>
@@ -13,22 +16,22 @@
         </div>
       </div>
       <div fxLayout="column wrap" fxLayoutAlign="start start" [fxShow]="true">
-        <div fxLayout="row wrap" fxLayoutGap="2em" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="row " fxLayoutGap="2em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayoutGap.lt-md="1em">
           <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true" *ngFor="let icon of page.icons">
             <mat-icon>{{icon.icon}}</mat-icon>
-            <div>
+            <div fxShow.lt-md="false">
               <p>{{icon.name}}</p>
             </div>
           </div>
           <div fxLayout="column wrap" fxFlex="3" fxLayoutGap="3px;" fxLayoutAlign="center center" [fxShow]="true"><img imgSrc="/Web/Images/profilePicture.jpg" style="width:30px; height:30px;border-radius:50%;margin-bottom:1px;">
-            <div>
+            <div fxShow.lt-md="false">
               <p>Me</p>
 
             </div>
           </div>
           <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true">
             <mat-icon>apps</mat-icon>
-            <div>
+            <div fxShow.lt-md="false">
               <p>work</p>
             </div>
           </div>
