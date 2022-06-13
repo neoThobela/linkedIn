@@ -1,7 +1,9 @@
 {
     "classes": [
         "backgroundColor",
+        "whiteBackground",
         "grayColor",
+        "sidenav",
         "mat-icon",
         "mat-card-content",
         "mat-form-field-appearance-outline",
@@ -10,6 +12,7 @@
         "blueText",
         "centerText",
         "image",
+        "marginBottom1em",
         "postParagraphMargin",
         "scrollY",
         "mat-card",

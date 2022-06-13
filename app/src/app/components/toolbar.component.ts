@@ -8,6 +8,8 @@ import {
   Input,
   Output,
   EventEmitter,
+  ViewChild,
+  ViewChildren,
 } from '@angular/core'; //_splitter_
 import { SDBaseService } from 'app/n-services/SDBaseService'; //_splitter_
 import { SDPageCommonService } from 'app/n-services/sd-page-common.service'; //_splitter_
@@ -23,6 +25,8 @@ import { FormControl, Validators, FormBuilder } from '@angular/forms'; //_splitt
   ],
 })
 export class toolbarComponent {
+  @Output('callFromChildComponent')
+  public callFromChildComponent: any = new EventEmitter<any>();
   page: any = { dep: {} };
   constructor(
     private __page_injector__: Injector,
@@ -59,6 +63,20 @@ export class toolbarComponent {
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_irsyUknMlQH5gtp6');
+    }
+  }
+
+  hideShowSidenav(...others) {
+    try {
+      var bh: any = this.__page_injector__
+        .get(SDPageCommonService)
+        .constructFlowObject(this);
+      bh.input = {};
+      bh.local = {};
+      bh = this.sd_rzeQeV7oT8PzXb0X(bh);
+      //appendnew_next_hideShowSidenav
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_hUUgn6CIpBBqb3Qd');
     }
   }
 
@@ -104,6 +122,16 @@ export class toolbarComponent {
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_uNzAsBSgRKnKkEJN');
+    }
+  }
+
+  sd_rzeQeV7oT8PzXb0X(bh) {
+    try {
+      bh.pageOutput.callFromChildComponent.emit();
+      //appendnew_next_sd_rzeQeV7oT8PzXb0X
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_rzeQeV7oT8PzXb0X');
     }
   }
 

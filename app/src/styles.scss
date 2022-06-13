@@ -7,22 +7,27 @@ $gray:#666666;
 $blueBg:#eef3f8;
 $backgroundColor:#f3f2ef;
 $blue:#0a66c2;
+$white: #fff;
 
 *{
 margin:0;
 padding:0;
 }
 
-body{
-    background-color:$backgroundColor;
-}
-
-.backgroundColor{
+.backgroundColor, body {
     background-color:$backgroundColor ; 
+}
+.whiteBackground {
+    background-color: $white;
 }
 
 .grayColor{
 color:$gray;
+}
+
+.sidenav {
+    height: calc(100% - 60px);
+    padding-top: 1em;
 }
 
 .mat-icon{
@@ -87,6 +92,10 @@ p{
     margin-bottom:5px;
 }
 
+.marginBottom1em {
+    margin-bottom: 1em;
+}
+
 .postParagraphMargin{
         margin: 13px 0px 14px 0px;
 }
@@ -125,11 +134,9 @@ div{
     }
 }
 .startaPostBtn{
-    margin-right:10px;
-    width:67%;
+    width:100%;
     border:1px solid $gray !important;
     border-radius: 50px!important;
-    width: 86%;
 }
 .follow{
     width:60%;

@@ -1,38 +1,55 @@
-<div fxLayout="column " fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
-  <div fxLayout="row wrap" style="background:white;height:50px; margin-bottom:25px;" fxLayoutAlign="center center" [fxShow]="true">
-    <bh-toolbar></bh-toolbar>
+<div fxLayout="column " fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
+  <div fxLayout="row wrap" class="whiteBackground" fxFlex="60px" fxLayoutAlign="center center" [fxShow]="true">
+    <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.xs="95" fxFlex.md="90" fxFlex.sm="90">
+      <bh-toolbar (callFromChildComponent)="toggleSidNav($event)"></bh-toolbar>
+    </div>
   </div>
-  <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
-    <div fxLayout="column wrap" fxFlex="80" fxLayoutGap="10px" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.sm="70">
-      <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="space-between stretch" [fxShow]="true" fxLayout.xs="column" fxLayout.sm="column">
-        <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start space-around" [fxShow]="true" fxFlex.md="25">
-          <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-leftProfile style="width:100%;"></bh-leftProfile>
-          </div>
-          <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-discoverMore style="width:100%;"></bh-discoverMore>
-          </div>
+  <mat-sidenav-container class="sidenav">
+    <mat-sidenav #sidenav [mode]="&apos;over&apos;" (opened)="true" [position]="&apos;start&apos;" [opened]="true">
+      <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let icon of page.icons">
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+          <mat-icon>{{icon.icon}}</mat-icon>
         </div>
-        <div fxLayout="column wrap" fxFlex="50" fxLayoutGap="1em" fxLayoutAlign="center center" [fxShow]="true" fxFlex.sm="25" fxFlex.md="70">
-          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-searchMenu style="width:100%;"></bh-searchMenu>
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><label>
+            {{icon.name}}</label></div>
+      </div>
+    </mat-sidenav>
+    <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
+      <div fxLayout="column wrap" fxFlex="80" fxLayoutGap="10px" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.md="90" fxFlex.sm="90" fxFlex.xs="95">
+        <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true" fxLayout.sm="column" fxLayout.xs="column">
+          <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start space-around" [fxShow]="true" fxFlex.sm="33" ngClass.sm="marginBottom1em" ngClass.xs="marginBottom1em" fxFlex.xs="100">
+            <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+              <bh-leftProfile style="width:100%;"></bh-leftProfile>
+            </div>
+            <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+              <bh-discoverMore style="width:100%;"></bh-discoverMore>
+            </div>
           </div>
-          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-action style="width:100%;"></bh-action>
-          </div>
-        </div>
-        <div fxLayout="column wrap" fxFlex="25" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayoutAlign.md="center center" fxLayoutGap.xs="5em">
-          <div fxLayout="row " style="width:100%" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-feed style="width:100%"></bh-feed>
-          </div>
-          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-whosHiring style="width:100%"></bh-whosHiring>
-          </div>
-          <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-footer></bh-footer>
+          <div fxLayout="column wrap" fxFlex="78" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.sm="65" fxFlex.xs="100">
+            <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true" fxLayout.sm="column" fxLayout.xs="column">
+              <div fxLayout="column wrap" fxFlex="68" fxLayoutGap="1em" fxLayoutAlign="center center" [fxShow]="true" fxLayoutAlign.sm="start stretch" ngClass.sm="marginBottom1em" ngClass.xs="marginBottom1em">
+                <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+                  <bh-searchMenu style="width:100%;"></bh-searchMenu>
+                </div>
+                <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+                  <bh-action style="width:100%;"></bh-action>
+                </div>
+              </div>
+              <div fxLayout="column wrap" fxFlex="30" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayoutAlign.sm="start stretch" fxFlex.sm="100">
+                <div fxLayout="row " style="width:100%" fxLayoutAlign="start stretch" [fxShow]="true">
+                  <bh-feed style="width:100%"></bh-feed>
+                </div>
+                <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+                  <bh-whosHiring style="width:100%"></bh-whosHiring>
+                </div>
+                <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
+                  <bh-footer></bh-footer>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </mat-sidenav-container>
 </div>

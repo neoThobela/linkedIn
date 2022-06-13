@@ -19,7 +19,15 @@
         "name": "",
         "inputVariables": [],
         "localVariables": [],
-        "outputVariables": [],
+        "outputVariables": [
+            {
+                "key": "callFromChildComponent",
+                "defaultValue": {
+                    "type": "any",
+                    "value": null
+                }
+            }
+        ],
         "functionName": "sd_irsyUknMlQH5gtp6",
         "category": "Lifecycle Events",
         "x": 65,
@@ -80,6 +88,62 @@
         "wires": [
             []
         ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_hUUgn6CIpBBqb3Qd",
+        "type": "PageStart",
+        "z": "sd_adD0Ri4m1R2XSZXH",
+        "viewType": "pages",
+        "nodeType": "start",
+        "name": "hideShowSidenav",
+        "outputs": 1,
+        "inputVariables": [],
+        "localVariables": [],
+        "flow_type": "sync",
+        "functionName": "hideShowSidenav",
+        "category": "General",
+        "x": 65,
+        "y": 200,
+        "wires": [
+            [
+                "sd_rzeQeV7oT8PzXb0X"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "toolbarComponent"
+    },
+    {
+        "id": "sd_rzeQeV7oT8PzXb0X",
+        "type": "Output",
+        "z": "sd_adD0Ri4m1R2XSZXH",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "eventName": "bh.pageOutput.callFromChildComponent",
+        "data": "bh",
+        "functionName": "sd_rzeQeV7oT8PzXb0X",
+        "category": "Function",
+        "x": 180,
+        "y": 200,
+        "wires": [
+            []
+        ],
+        "__ssdTypeInputs__": {
+            "eventName": {
+                "type": "bh.pageOutput",
+                "value": "callFromChildComponent",
+                "constant": false
+            },
+            "data": {
+                "type": "bh",
+                "value": "",
+                "constant": false
+            }
+        },
         "__n_excludedFromValidation__": {},
         "generateNext": false,
         "generated": true
