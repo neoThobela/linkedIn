@@ -391,13 +391,13 @@
             },
             {
                 "_key": "layoutAlign",
-                "_value": "start",
+                "_value": "center",
                 "_type": "a",
                 "_attrDef": "p"
             },
             {
                 "_key": "pLayoutAlign",
-                "_value": "stretch",
+                "_value": "center",
                 "_type": "a",
                 "_attrDef": "p"
             },
@@ -423,6 +423,7 @@
                 {
                     "_key": "class",
                     "_value": [
+                        "font-sizeSmall",
                         "grayColor"
                     ],
                     "_type": "dav",
