@@ -2,11 +2,11 @@
   <mat-card-content>
     <div fxLayout="column wrap" fxLayoutGap="10px" fxLayoutAlign="center stretch" [fxShow]="true">
       <div fxLayout="row " style="width:100%;" fxFlex="100" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Images/profilePicture.jpg" style="width:40px;height:40px;border-radius:50%;margin-right:10px;"><button mat-button class="startaPostBtn">Start A Post</button></div>
-      <div fxLayout="row " fxLayoutGap="3.2em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayoutGap.lt-md="2em" fxLayoutGap.lt-sm="15px" fxLayoutGap.lt-lg="6em">
+      <div fxLayout="row " fxLayoutGap="2em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayoutGap.lt-md="2em" fxLayoutGap.lt-sm="15px" fxLayoutGap.lt-lg="4em" fxLayoutGap.xs="3em">
         <div fxLayout="column wrap" fxLayoutGap="10em" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let icon of page.searchBarIcons">
-          <div fxLayout="row " fxLayoutGap="5px" fxLayoutAlign="start center" [fxShow]="true" fxLayoutGap.xs="1px">
+          <div fxLayout="row " fxLayoutGap="5px" fxLayoutAlign="start center" [fxShow]="true" fxLayoutGap.xs="20px">
             <mat-icon style="color:{{icon.color}}">{{icon.icon}}</mat-icon>
-            <h4 class="font-sizeSmall">
+            <h4 fxHide.xs="true" class="font-sizeSmall">
               {{icon.name}}
             </h4>
           </div>

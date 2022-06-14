@@ -516,6 +516,18 @@
                                     "_value": "true",
                                     "_type": "kv",
                                     "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "ngStyle.xs",
+                                    "_value": "margin: 5px;",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "ngStyle.lt-sm",
+                                    "_value": "    margin: 5px;",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
                                 }
                             ],
                             "0295a121-1dcf-3efe-060f-51c0d7d1ecc4": {
@@ -920,6 +932,12 @@
                             {
                                 "_key": "fxLayoutGap.lt-md",
                                 "_value": "1em",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "fxLayoutGap.lt-lg",
+                                "_value": "10px",
                                 "_type": "kv",
                                 "_attrDef": "c"
                             }

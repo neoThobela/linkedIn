@@ -4122,6 +4122,12 @@
                                     "_value": "3em",
                                     "_type": "kv",
                                     "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "fxLayoutGap.xs",
+                                    "_value": "2em",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
                                 }
                             ],
                             "b149b1df-8997-b394-49fa-e7331245d5de": {

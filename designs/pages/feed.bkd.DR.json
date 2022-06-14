@@ -441,7 +441,7 @@
                             },
                             {
                                 "_key": "wrap",
-                                "_value": "wrap",
+                                "_value": "",
                                 "_type": "a",
                                 "_attrDef": "p"
                             },

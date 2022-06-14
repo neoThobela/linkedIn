@@ -167,6 +167,18 @@
                     "_value": "width:416px",
                     "_type": "kv",
                     "_attrDef": "c"
+                },
+                {
+                    "_key": "ngStyle.lt-xs",
+                    "_value": "width:280px;",
+                    "_type": "kv",
+                    "_attrDef": "c"
+                },
+                {
+                    "_key": "ngStyle.xs",
+                    "_value": "width:280px;",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "1fc4e166-cad9-8c3d-9a74-3d8d796dec5a": {
@@ -336,6 +348,12 @@
                             {
                                 "_key": "ngStyle.lt-md",
                                 "_value": "    margin-left: 220px;",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "ngStyle.xs",
+                                "_value": "margin-left: 110px;",
                                 "_type": "kv",
                                 "_attrDef": "c"
                             }

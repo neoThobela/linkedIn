@@ -5,7 +5,7 @@
         <div style="font-weight:small;color:black;text-align:center;">
           <h4> Add To Your Feed</h4>
         </div>
-        <div fxLayout="row wrap" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let feed of page.addFeed"><img imgSrc="{{feed.image}}" style="width:30px;height:30px;border-radius:50%;">
+        <div fxLayout="row " fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let feed of page.addFeed"><img imgSrc="{{feed.image}}" style="width:30px;height:30px;border-radius:50%;">
           <div fxLayout="column wrap" fxLayoutGap="5px" fxLayoutAlign="start stretch" [fxShow]="true" fxLayout.lt-lg="row" fxLayoutGap.lt-lg="2em" wrap.lt-lg="NoWrap">
             <h4 style="font-weight:small" class="grayColor">
               {{feed.title}}

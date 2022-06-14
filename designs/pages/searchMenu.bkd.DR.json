@@ -342,7 +342,7 @@
                         },
                         {
                             "_key": "fxLayoutGap",
-                            "_value": "3.2em",
+                            "_value": "2em",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -384,7 +384,13 @@
                         },
                         {
                             "_key": "fxLayoutGap.lt-lg",
-                            "_value": "6em",
+                            "_value": "4em",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "fxLayoutGap.xs",
+                            "_value": "3em",
                             "_type": "kv",
                             "_attrDef": "c"
                         }
@@ -1033,7 +1039,7 @@
                                 },
                                 {
                                     "_key": "fxLayoutGap.xs",
-                                    "_value": "1px",
+                                    "_value": "20px",
                                     "_type": "kv",
                                     "_attrDef": "c"
                                 }
@@ -1263,6 +1269,12 @@
                                         "_type": "kv",
                                         "_attrDef": "p",
                                         "_visibility": false
+                                    },
+                                    {
+                                        "_key": "fxHide.xs",
+                                        "_value": "true",
+                                        "_type": "kv",
+                                        "_attrDef": "c"
                                     }
                                 ],
                                 "5ea19937-65e3-9ff8-741e-c5d33c9c5b8a": {

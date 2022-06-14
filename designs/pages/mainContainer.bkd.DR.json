@@ -129,7 +129,6 @@
             "e61037ad-63c9-72d6-5bb7-4f3c4075d114": {
                 "paletteKey": "NEUTRINOS_VIEW_toolbar",
                 "parentEditorKey": "4e1ae35b-17ca-ac39-2ee0-a22f8e8d4670",
-                "isCommented": "false",
                 "commentid": null,
                 "designerReference": [
                     {
@@ -1254,7 +1253,7 @@
                                     },
                                     {
                                         "_key": "fxLayoutGap.xs",
-                                        "_value": "5em",
+                                        "_value": "1em",
                                         "_type": "kv",
                                         "_attrDef": "c"
                                     },
