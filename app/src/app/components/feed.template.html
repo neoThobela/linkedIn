@@ -1,12 +1,12 @@
-<div fxLayout="column wrap" fxLayoutGap="1em" fxLayoutAlign="start space-between" [fxShow]="true">
-  <mat-card style="width:90%;">
+<div fxLayout="column wrap" style="width:100%;" fxLayoutGap="1em" fxLayoutAlign="start space-between" [fxShow]="true">
+  <mat-card ngClass.lt-lg="width94" ngStyle.lt-lg="width:95%" style="width:91%;">
     <mat-card-content style="  ">
-      <div fxLayout="column wrap" fxLayoutGap="1em" fxLayoutAlign="start space-around" [fxShow]="true">
+      <div fxLayout="column wrap" style="width:100%;" fxLayoutGap="1em" fxLayoutAlign="start space-around" [fxShow]="true">
         <div style="font-weight:small;color:black;text-align:center;">
           <h4> Add To Your Feed</h4>
         </div>
-        <div fxLayout="row wrap" style="width:100%;" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let feed of page.addFeed"><img imgSrc="{{feed.image}}" style="width:30px;height:30px;border-radius:50%;">
-          <div fxLayout="column wrap" fxLayoutGap="5px" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="row wrap" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let feed of page.addFeed"><img imgSrc="{{feed.image}}" style="width:30px;height:30px;border-radius:50%;">
+          <div fxLayout="column wrap" fxLayoutGap="5px" fxLayoutAlign="start stretch" [fxShow]="true" fxLayout.lt-lg="row" fxLayoutGap.lt-lg="2em" wrap.lt-lg="NoWrap">
             <h4 style="font-weight:small" class="grayColor">
               {{feed.title}}
 

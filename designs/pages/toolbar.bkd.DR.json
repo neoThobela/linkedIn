@@ -298,7 +298,7 @@
                             },
                             {
                                 "_key": "wrap",
-                                "_value": "wrap",
+                                "_value": "",
                                 "_type": "a",
                                 "_attrDef": "p"
                             },
@@ -1383,7 +1383,6 @@
                                 "paletteKey": "Html5",
                                 "parentEditorKey": "fcab1edb-c29e-609e-21f0-dce6346e46bc",
                                 "isAdvancedComponent": true,
-                                "isCommented": "false",
                                 "commentid": null,
                                 "designerReference": [
                                     {
@@ -1577,7 +1576,6 @@
                                     "paletteKey": "html-editor",
                                     "parentEditorKey": "c13b5f82-662f-75ea-fdd0-eba4dacf46b3",
                                     "isAdvancedChildComponent": true,
-                                    "isCommented": "false",
                                     "commentid": null,
                                     "designerReference": [
                                         {

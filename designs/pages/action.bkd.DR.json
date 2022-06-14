@@ -4110,6 +4110,18 @@
                                     "_value": "1px",
                                     "_type": "kv",
                                     "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "fxLayoutGap.lt-lg",
+                                    "_value": "10px",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "fxLayoutGap.lt-sm",
+                                    "_value": "3em",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
                                 }
                             ],
                             "b149b1df-8997-b394-49fa-e7331245d5de": {

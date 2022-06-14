@@ -13,7 +13,7 @@
             },
             {
                 "_key": "style",
-                "_value": "width:94%;",
+                "_value": "",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -154,7 +154,7 @@
                         },
                         {
                             "_key": "wrap",
-                            "_value": "wrap",
+                            "_value": "",
                             "_type": "a",
                             "_attrDef": "p"
                         },
@@ -348,7 +348,7 @@
                         },
                         {
                             "_key": "wrap",
-                            "_value": "wrap",
+                            "_value": "",
                             "_type": "a",
                             "_attrDef": "p"
                         },
@@ -369,6 +369,24 @@
                             "_value": "true",
                             "_type": "kv",
                             "_attrDef": "p"
+                        },
+                        {
+                            "_key": "fxLayoutGap.lt-md",
+                            "_value": "2em",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "fxLayoutGap.lt-sm",
+                            "_value": "15px",
+                            "_type": "kv",
+                            "_attrDef": "c"
+                        },
+                        {
+                            "_key": "fxLayoutGap.lt-lg",
+                            "_value": "2em",
+                            "_type": "kv",
+                            "_attrDef": "c"
                         }
                     ],
                     "7d3ea3a5-69b7-c0c0-7f9e-20d9c47288b2": {
@@ -991,7 +1009,7 @@
                                 },
                                 {
                                     "_key": "wrap",
-                                    "_value": "wrap",
+                                    "_value": "",
                                     "_type": "a",
                                     "_attrDef": "p"
                                 },
@@ -1012,6 +1030,12 @@
                                     "_value": "true",
                                     "_type": "kv",
                                     "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "fxLayoutGap.xs",
+                                    "_value": "1px",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
                                 }
                             ],
                             "a565abce-c3c9-50bd-8e19-bf1f9fd21ce0": {

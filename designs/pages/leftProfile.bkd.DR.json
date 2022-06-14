@@ -12,7 +12,7 @@
             },
             {
                 "_key": "style",
-                "_value": "width:100%;border-radius:5px;",
+                "_value": "border-radius:5px;",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -75,7 +75,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "height:50px;width:80%;",
+                    "_value": "height:54px;",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -140,7 +140,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "width: 87%;",
+                    "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -155,37 +155,20 @@
                     "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "ngStyle.lt-md",
+                    "_value": "width:505px;",
+                    "_type": "kv",
+                    "_attrDef": "c"
+                },
+                {
+                    "_key": "ngStyle.lt-sm",
+                    "_value": "width:416px",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
-            "8c74e538-cda3-4530-21d7-97450ed80c04": {
-                "paletteKey": "ng-card-content",
-                "parentEditorKey": "df263da5-bcba-a8ce-d2cd-319fbdfa1ca9",
-                "isAdvancedChildComponent": true,
-                "isCommented": "true",
-                "commentid": "1654828691071",
-                "designerReference": [
-                    {
-                        "_key": "style",
-                        "_value": "height:50px;width:100%;border-radius:5px;",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "class",
-                        "_value": [
-                            "matCardBg"
-                        ],
-                        "_type": "dav",
-                        "_attrDef": "p"
-                    },
-                    {
-                        "_key": "align",
-                        "_value": "",
-                        "_type": "kv",
-                        "_attrDef": "p"
-                    }
-                ]
-            },
             "1fc4e166-cad9-8c3d-9a74-3d8d796dec5a": {
                 "paletteKey": "ng-card-content",
                 "parentEditorKey": "df263da5-bcba-a8ce-d2cd-319fbdfa1ca9",
@@ -337,6 +320,24 @@
                                 "_value": "",
                                 "_type": "kv",
                                 "_attrDef": "p"
+                            },
+                            {
+                                "_key": "ngStyle.lt-sm",
+                                "_value": "    margin-left: 220px;",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "ngStyle.lt-xs",
+                                "_value": "    margin-left: 178px;",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "ngStyle.lt-md",
+                                "_value": "    margin-left: 220px;",
+                                "_type": "kv",
+                                "_attrDef": "c"
                             }
                         ]
                     }

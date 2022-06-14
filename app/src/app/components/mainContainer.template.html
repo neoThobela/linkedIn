@@ -4,32 +4,36 @@
   </div>
   <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
     <div fxLayout="column wrap" fxFlex="80" fxLayoutGap="10px" fxLayoutAlign="start stretch" [fxShow]="true" fxFlex.sm="70">
-      <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="space-between stretch" [fxShow]="true" fxLayout.xs="column" fxLayout.sm="column" fxLayoutGap.sm="1em">
+      <div fxLayout="row wrap" style="width:100%;" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayout.xs="column" fxLayout.sm="column" fxLayoutGap.sm="1em">
         <div fxLayout="column wrap" fxFlex="20" fxLayoutGap="1em" fxLayoutAlign="start space-around" [fxShow]="true" fxFlex.md="25">
-          <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-leftProfile style="width:100%;"></bh-leftProfile>
+          <div fxLayout="row " fxLayoutAlign="start stretch" [fxShow]="true">
+            <bh-leftProfile style="width:100%;" class="leftProfile"></bh-leftProfile>
           </div>
           <div fxLayout="row " style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true" fxShow.xs="false" fxShow.sm="false">
             <bh-discoverMore style="width:100%;"></bh-discoverMore>
           </div>
         </div>
-        <div fxLayout="column wrap" fxFlex="50" fxLayoutGap="1em" fxLayoutAlign="center center" [fxShow]="true" fxFlex.sm="25" fxFlex.md="70">
-          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-searchMenu style="width:100%;"></bh-searchMenu>
-          </div>
-          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-action style="width:100%;"></bh-action>
-          </div>
-        </div>
-        <div fxLayout="column wrap" fxFlex="25" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayoutAlign.md="center center" fxLayoutGap.xs="5em">
-          <div fxLayout="row " style="width:100%" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-feed style="width:100%"></bh-feed>
-          </div>
-          <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-whosHiring style="width:100%"></bh-whosHiring>
-          </div>
-          <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
-            <bh-footer></bh-footer>
+        <div fxLayout="column wrap" fxFlex="78" fxLayoutAlign="start space-between" [fxShow]="true" fxFlex.lt-lg="70">
+          <div fxLayout="row wrap" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayout.lt-lg="column">
+            <div fxLayout="column wrap" fxFlex="60" fxLayoutGap="1em" fxLayoutAlign="center center" [fxShow]="true" fxFlex.sm="25" fxFlex.md="70" fxLayoutAlign.lt-lg="start center">
+              <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+                <bh-searchMenu style="width:100%;"></bh-searchMenu>
+              </div>
+              <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+                <bh-action style="width:100%;"></bh-action>
+              </div>
+            </div>
+            <div fxLayout="column wrap" fxFlex="38" fxLayoutGap="1em" fxLayoutAlign="start stretch" [fxShow]="true" fxLayoutAlign.md="center center" fxLayoutGap.xs="5em" fxFlex.lt-lg="0" fxLayoutAlign.lt-lg="start ">
+              <div fxLayout="row " style="width:100%" fxLayoutAlign="start stretch" [fxShow]="true">
+                <bh-feed class="leftProfile"></bh-feed>
+              </div>
+              <div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start stretch" [fxShow]="true">
+                <bh-whosHiring style="width:100%"></bh-whosHiring>
+              </div>
+              <div fxLayout="row wrap" class="width100" fxLayoutAlign="start stretch" [fxShow]="true">
+                <bh-footer></bh-footer>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@
             },
             {
                 "_key": "style",
-                "_value": "",
+                "_value": "width:100%;",
                 "_type": "kv",
                 "_attrDef": "p"
             },
@@ -74,7 +74,7 @@
                 },
                 {
                     "_key": "style",
-                    "_value": "width:90%;",
+                    "_value": "width:91%;",
                     "_type": "kv",
                     "_attrDef": "p"
                 },
@@ -89,6 +89,18 @@
                     "_value": "",
                     "_type": "kv",
                     "_attrDef": "p"
+                },
+                {
+                    "_key": "ngClass.lt-lg",
+                    "_value": "width94",
+                    "_type": "kv",
+                    "_attrDef": "c"
+                },
+                {
+                    "_key": "ngStyle.lt-lg",
+                    "_value": "width:95%",
+                    "_type": "kv",
+                    "_attrDef": "c"
                 }
             ],
             "9f461380-2ba1-ef41-77d9-269d55f0212b": {
@@ -130,7 +142,7 @@
                         },
                         {
                             "_key": "style",
-                            "_value": "",
+                            "_value": "width:100%;",
                             "_type": "kv",
                             "_attrDef": "p"
                         },
@@ -405,7 +417,7 @@
                             },
                             {
                                 "_key": "style",
-                                "_value": "width:100%;",
+                                "_value": "",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -585,6 +597,24 @@
                                     "_value": "true",
                                     "_type": "kv",
                                     "_attrDef": "p"
+                                },
+                                {
+                                    "_key": "fxLayout.lt-lg",
+                                    "_value": "row",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "fxLayoutGap.lt-lg",
+                                    "_value": "2em",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
+                                },
+                                {
+                                    "_key": "wrap.lt-lg",
+                                    "_value": "NoWrap",
+                                    "_type": "kv",
+                                    "_attrDef": "c"
                                 }
                             ],
                             "0b65d1a9-3022-a92e-0507-2acd6ad9904f": {
