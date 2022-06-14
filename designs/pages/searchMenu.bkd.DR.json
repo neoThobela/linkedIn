@@ -384,7 +384,7 @@
                         },
                         {
                             "_key": "fxLayoutGap.lt-lg",
-                            "_value": "2em",
+                            "_value": "6em",
                             "_type": "kv",
                             "_attrDef": "c"
                         }
