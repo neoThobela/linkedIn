@@ -127,7 +127,7 @@
                 },
                 {
                     "_key": "fxFlex.sm",
-                    "_value": "70",
+                    "_value": "80",
                     "_type": "kv",
                     "_attrDef": "c"
                 }
@@ -195,6 +195,18 @@
                     {
                         "_key": "fxFlex.lt-md",
                         "_value": "70",
+                        "_type": "kv",
+                        "_attrDef": "c"
+                    },
+                    {
+                        "_key": "fxFlex.lt-xs",
+                        "_value": "80",
+                        "_type": "kv",
+                        "_attrDef": "c"
+                    },
+                    {
+                        "_key": "fxFlex.xs",
+                        "_value": "80",
                         "_type": "kv",
                         "_attrDef": "c"
                     }
@@ -872,6 +884,7 @@
                     "41c2e702-5fc0-54d8-083d-130e867027a8": {
                         "paletteKey": "NG-icon",
                         "parentEditorKey": "e81fd844-c9ad-dd0e-333b-bf50a2b4ba70",
+                        "isCommented": "false",
                         "commentid": null,
                         "designerReference": [
                             {
@@ -914,6 +927,12 @@
                             {
                                 "_key": "fxHide.lt-sm",
                                 "_value": "false",
+                                "_type": "kv",
+                                "_attrDef": "c"
+                            },
+                            {
+                                "_key": "fxHide.lt-xl",
+                                "_value": "true",
                                 "_type": "kv",
                                 "_attrDef": "c"
                             }
